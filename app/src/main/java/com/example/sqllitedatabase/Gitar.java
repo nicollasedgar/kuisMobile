@@ -1,14 +1,14 @@
 package com.example.sqllitedatabase;
 
-public class Mahasiswa {
+public class Gitar {
     private String _id, _nama, _suara, _jabatan;
-    public Mahasiswa (String id, String nama, String suara, String jabatan) {
+    public Gitar (String id, String nama, String suara, String jabatan) {
         this._id = id;
         this._nama = nama;
         this._suara = suara;
         this._jabatan = jabatan;
     }
-    public Mahasiswa() {
+    public Gitar() {
     }
     public String get_id() {
         return _id;
